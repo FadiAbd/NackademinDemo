@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NackademinDemo", "NackademinDemo\NackademinDemo.csproj", "{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		schele|Any CPU = schele|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.schele|Any CPU.ActiveCfg = schele|Any CPU
+		{E5F5CBCE-8BE1-462C-B052-F142FE65E4A4}.schele|Any CPU.Build.0 = schele|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4430934-C6FA-4EB4-8E23-5ED82600F167}
+	EndGlobalSection
+EndGlobal

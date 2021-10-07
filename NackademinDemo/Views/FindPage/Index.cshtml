@@ -1,0 +1,36 @@
+﻿@model ResultViewModel
+
+<h1>Find</h1>
+
+<style type="text/css">
+    .paddings { padding: 25px; }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#search-box').focus();
+    });
+</script>
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <div class="paddings">
+        <input type="text" name="query" value="" id="search-box" />
+        <input type="submit" value="Sök" />
+    </div>
+}
+
+@if (Model.Result != null)
+{
+    <ul>
+        @foreach (var item in Model.Result)
+        {
+        <li>
+            <h2><a href="@item.Url">@item.Title</a></h2>
+            <p>@Html.Raw(item.Excerpt)</p>
+        </li>
+        }
+    </ul>
+}
